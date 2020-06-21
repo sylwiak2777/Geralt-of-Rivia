@@ -1,226 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Geralt z Rivii</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./header.css" />
-    <link rel="stylesheet" href="./section-about.css" />
-    <link rel="stylesheet" href="./button.css" />
-    <link rel="stylesheet" href="./navigation.css" />
-    <link rel="stylesheet" href="./section-services.css" />
-    <link rel="stylesheet" href="./section-table.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./section-contact.css" />
-    <link rel="stylesheet" href="./section-footer.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <h1 class="header__main-text">Geralt z Rivii</h1>
-      <h2 class="header__sub-text">Skuteczny zabójca potworów</h2>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geralt z Rivii</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./header.css" />
+  <link rel="stylesheet" href="./section-about.css" />
+  <link rel="stylesheet" href="./button.css" />
+  <link rel="stylesheet" href="./navigation.css" />
+  <link rel="stylesheet" href="./section-services.css" />
+  <link rel="stylesheet" href="./section-table.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./section-contact.css" />
+  <link rel="stylesheet" href="./section-footer.css" />
+</head>
 
-    <nav class="navigation">
+<body>
+  <header class="header">
+    <h1 class="header__main-text">Geralt z Rivii</h1>
+    <h2 class="header__sub-text">Skuteczny zabójca potworów</h2>
+  </header>
+
+  <nav class="navigation">
+    <ul>
+      <li class="navigation__list-item">
+        <a class="navigation__link" href="#about">O mnie </a>
+      </li>
+      <li class="navigation__list-item">
+        <a class="navigation__link" href="#services">Usługi </a>
+      </li>
+      <li class="navigation__list-item">
+        <a class="navigation__link" href="#achievements">Osiągnięcia </a>
+      </li>
+      <li class="navigation__list-item">
+        <a class="navigation__link" href="#contact">Kontakt </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="section-about redBackground" id="about">
+      <h1>Witaj.</h1>
+      <p>
+        Jestem Geralt z Rivii, mutant do wynajęcia. Zajmę się Twoim problemem
+        z utopcami, ghulami, wiwernami, bruxami, i czymkolwiek jeszcze sobie
+        wymarzysz. <strong>NIE</strong> jestem płatnym mordercą. Działam
+        szybko i skutecznie. Mam wieloletnie doświadczenie w swoim fachu,
+        możesz zaufać moim ostrzom.
+      </p>
+      <button class="button">Nudny kolor sekcji</button>
+    </section>
+
+    <section class="section-services" id="services">
+      <h2>Usługi</h2>
       <ul>
-        <li class="navigation__list-item">
-          <a class="navigation__link" href="#about">O mnie </a>
+        <li class="section-services__listItem">Eksterminacja potworów</li>
+        <li class="section-services__listItem">Wypędzanaie upiorów</li>
+        <li class="section-services__listItem">
+          Rozwiązywanie zagadek kryminalnych
         </li>
-        <li class="navigation__list-item">
-          <a class="navigation__link" href="#services">Usługi </a>
+        <li class="section-services__listItem">Tropienie rzadkich okazów</li>
+        <li class="section-services__listItem">Przepędzanie kochanków</li>
+        <li class="section-services__listItem">
+          Możliwość zagrania partyjki gwinta
         </li>
-        <li class="navigation__list-item">
-          <a class="navigation__link" href="#achievements">Osiągnięcia </a>
-        </li>
-        <li class="navigation__list-item">
-          <a class="navigation__link" href="#contact">Kontakt </a>
+        <li class="section-services__listItem">
+          Szukanie kóz w okolicznym lesie
         </li>
       </ul>
-    </nav>
+    </section>
 
-    <main>
-      <section class="section-about redBackground" id="about">
-        <h1>Witaj.</h1>
-        <p>
-          Jestem Geralt z Rivii, mutant do wynajęcia. Zajmę się Twoim problemem
-          z utopcami, ghulami, wiwernami, bruxami, i czymkolwiek jeszcze sobie
-          wymarzysz. <strong>NIE</strong> jestem płatnym mordercą. Działam
-          szybko i skutecznie. Mam wieloletnie doświadczenie w swoim fachu,
-          możesz zaufać moim ostrzom.
-        </p>
-        <button class="button">Nudny kolor sekcji</button>
-      </section>
+    <section class="section-table" id="achievements">
+      <h2>Moje osiągnięcia zostały opisane w poniższych publikacjach</h2>
+      <div class="section-table__container">
+        <table class="section-table__table">
+          <caption class="section-table__caption">
+            Publikacje
+          </caption>
+          <thead>
+            <tr class="section-table__tableRow">
+              <th class="section-table__tableHeader section-table__tableCell" scope="cool">
+                Tytuł
+              </th>
+              <th class="section-table__tableHeader section-table__tableCell" scope="cool">
+                Autor
+              </th>
+              <th class="section-table__tableHeader section-table__tableCell" scope="cool">
+                Gatunek
+              </th>
+              <th class="section-table__tableHeader section-table__tableCell" scope="cool">
+                Sprzedawcy
+              </th>
+              <th class="section-table__tableHeader section-table__tableCell" scope="cool">
+                Rok wydania
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="section-table__tableRow">
+              <th class="section-table__tableHeader section-table__tableCell" scope="row">
+                Strzygi Odczarowanie
+              </th>
+              <td class="section-table__tableCell">Pustelnik Lebioda</td>
+              <td class="section-table__tableCell">Historyczne</td>
+              <td class="section-table__tableCell">
+                Antykwariusz z Novigradu
+              </td>
+              <td class="section-table__tableCell">1502</td>
+            </tr>
 
-      <section class="section-services" id="services">
-        <h2>Usługi</h2>
-        <ul>
-          <li class="section-services__listItem">Eksterminacja potworów</li>
-          <li class="section-services__listItem">Wypędzanaie upiorów</li>
-          <li class="section-services__listItem">
-            Rozwiązywanie zagadek kryminalnych
-          </li>
-          <li class="section-services__listItem">Tropienie rzadkich okazów</li>
-          <li class="section-services__listItem">Przepędzanie kochanków</li>
-          <li class="section-services__listItem">
-            Możliwość zagrania partyjki gwinta
-          </li>
-          <li class="section-services__listItem">
-            Szukanie kóz w okolicznym lesie
-          </li>
-        </ul>
-      </section>
-
-      <section class="section-table" id="achievements">
-        <h2>Moje osiągnięcia zostały opisane w poniższych publikacjach</h2>
-        <div class="section-table__container">
-          <table class="section-table__table">
-            <caption class="section-table__caption">
-              Publikacje
-            </caption>
-            <thead>
-              <tr class="section-table__tableRow">
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="cool"
-                >
-                  Tytuł
-                </th>
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="cool"
-                >
-                  Autor
-                </th>
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="cool"
-                >
-                  Gatunek
-                </th>
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="cool"
-                >
-                  Sprzedawcy
-                </th>
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="cool"
-                >
-                  Rok wydania
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="section-table__tableRow">
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="row"
-                >
-                  Strzygi Odczarowanie
-                </th>
-                <td class="section-table__tableCell">Pustelnik Lebioda</td>
-                <td class="section-table__tableCell">Historyczne</td>
-                <td class="section-table__tableCell">
-                  Antykwariusz z Novigradu
-                </td>
-                <td class="section-table__tableCell">1502</td>
-              </tr>
-
-              <tr class="section-table__tableRow">
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="row"
-                >
-                  Monstrum, albo wiedźmina opisanie
-                </th>
-                <td class="section-table__tableCell">Hieronim</td>
-                <td class="section-table__tableCell">Historyczne</td>
-                <td class="section-table__tableCell">Andrzej z Podgordzia</td>
-                <td class="section-table__tableCell">1554</td>
-              </tr>
-              <tr class="section-table__tableRow">
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="row"
-                >
-                  O przekleństwach i przeklętych
-                </th>
-                <td class="section-table__tableCell">Pustelnik Lebioda</td>
-                <td class="section-table__tableCell">Bestiariusz</td>
-                <td class="section-table__tableCell">Talar</td>
-                <td class="section-table__tableCell">1550</td>
-              </tr>
-              <tr class="section-table__tableRow">
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="row"
-                >
-                  Przepowiednia Itliny
-                </th>
-                <td class="section-table__ableCell">Itlina</td>
-                <td class="section-table__tableCell">Historyczne</td>
-                <td class="section-table__tableCell">Medyczka Shani</td>
-                <td class="section-table__tableCell">1406</td>
-              </tr>
-              <tr class="section-table__tableRow">
-                <th
-                  class="section-table__tableHeader section-table__tableCell"
-                  scope="row"
-                >
-                  Starsza Krew
-                </th>
-                <td class="section-table__tableCell">Avallach</td>
-                <td class="section-table__tableCell">Historyczne</td>
-                <td class="section-table__tableCell">
-                  Antykwariusz z Novigradu
-                </td>
-                <td class="section-table__tableCell">1509</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <button class="button button__button-quote">Opowiedz mi fraszkę</button>
-      <div id="addQuote">
-        <p>Lambert, Lambert, Ty...</p>
+            <tr class="section-table__tableRow">
+              <th class="section-table__tableHeader section-table__tableCell" scope="row">
+                Monstrum, albo wiedźmina opisanie
+              </th>
+              <td class="section-table__tableCell">Hieronim</td>
+              <td class="section-table__tableCell">Historyczne</td>
+              <td class="section-table__tableCell">Andrzej z Podgordzia</td>
+              <td class="section-table__tableCell">1554</td>
+            </tr>
+            <tr class="section-table__tableRow">
+              <th class="section-table__tableHeader section-table__tableCell" scope="row">
+                O przekleństwach i przeklętych
+              </th>
+              <td class="section-table__tableCell">Pustelnik Lebioda</td>
+              <td class="section-table__tableCell">Bestiariusz</td>
+              <td class="section-table__tableCell">Talar</td>
+              <td class="section-table__tableCell">1550</td>
+            </tr>
+            <tr class="section-table__tableRow">
+              <th class="section-table__tableHeader section-table__tableCell" scope="row">
+                Przepowiednia Itliny
+              </th>
+              <td class="section-table__ableCell">Itlina</td>
+              <td class="section-table__tableCell">Historyczne</td>
+              <td class="section-table__tableCell">Medyczka Shani</td>
+              <td class="section-table__tableCell">1406</td>
+            </tr>
+            <tr class="section-table__tableRow">
+              <th class="section-table__tableHeader section-table__tableCell" scope="row">
+                Starsza Krew
+              </th>
+              <td class="section-table__tableCell">Avallach</td>
+              <td class="section-table__tableCell">Historyczne</td>
+              <td class="section-table__tableCell">
+                Antykwariusz z Novigradu
+              </td>
+              <td class="section-table__tableCell">1509</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <section class="section-contact" id="contact">
-        <h2>Pozostańmy w kontakcie!</h2>
-        <h3>
-          Zlecenia kieruj bezpośrednio do mnie, lub <br />
-          do Juliana Alfreda Pankratza wicehrabii de Letenhove
-        </h3>
-        <h4>Adres</h4>
-        <p>
-          Zajazd pod Złamanym Dukatem, <br />
-          pokój nr 17, piętro II <br />
-          Novigrad
-        </p>
-      </section>
-      <section class="section">
-        <h2 class="section__subHeader">Testowy nagłówek</h2>
-        <p class="section__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          at nisi, provident vitae numquam ipsum reiciendis cupiditate animi!
-          Impedit quae maxime pariatur aut incidunt tempore? Neque, odit iure.
-          In, dignissimos.
-        </p>
-      </section>
-    </main>
-    <footer class="section-footer">
-      <p>Usługi wiedźmińskie ©</p>
-    </footer>
+    </section>
 
-    <script src="./code.js"></script>
-  </body>
+    <button class="button button__button-quote">Opowiedz mi fraszkę</button>
+    <div id="addQuote">
+      <p>Lambert, Lambert, Ty...</p>
+    </div>
+    <section class="section-contact" id="contact">
+      <h2>Pozostańmy w kontakcie!</h2>
+      <h3>
+        Zlecenia kieruj bezpośrednio do mnie, lub <br />
+        do Juliana Alfreda Pankratza wicehrabii de Letenhove
+      </h3>
+      <h4>Adres</h4>
+      <p>
+        Zajazd pod Złamanym Dukatem, <br />
+        pokój nr 17, piętro II <br />
+        Novigrad
+      </p>
+    </section>
+    <section class="section">
+      <h2 class="section__subHeader">Testowy nagłówek</h2>
+      <p class="section__paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+        at nisi, provident vitae numquam ipsum reiciendis cupiditate animi!
+        Impedit quae maxime pariatur aut incidunt tempore? Neque, odit iure.
+        In, dignissimos. New section text for git commit.
+      </p>
+    </section>
+  </main>
+  <footer class="section-footer">
+    <p>Usługi wiedźmińskie ©</p>
+  </footer>
+
+  <script src="./code.js"></script>
+</body>
+
 </html>
