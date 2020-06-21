@@ -1,0 +1,44 @@
+.section-table__container {
+  overflow-x: auto;
+
+}
+
+
+.section-table {
+  padding: 20px;
+}
+
+.section-table__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.section-table__caption {
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.section-table__tableCell {
+  border: 1px solid rgb(180, 180, 180);
+  text-align: center;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.section-table__tableHeader {
+  border: 1px solid rgb(180, 180, 180);
+  background-color: rgb(223, 76, 76);
+  color: white;
+  padding: 20px;
+}
+
+.section-table__tableRow:hover {
+  background-color: rgb(161, 161, 161);
+
+}
+
+
+.section-table__tableRow:nth-child(even) {
+  background-color: #eee;
+}

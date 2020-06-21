@@ -1,0 +1,18 @@
+.navigation__link {
+    width: 60px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(24, 24, 24);
+}
+
+.navigation__link:hover {
+    color: rgb(223, 76, 76);
+    border-bottom: 2px solid rgb(223, 76, 76);
+}
+
+.navigation__list-item {
+    display: inline-block;
+    padding: 20px;
+}

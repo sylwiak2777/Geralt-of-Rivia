@@ -1,0 +1,14 @@
+.header {
+    height: 50vh;
+    background-image: url("./img/geralt2.jpg");
+    background-size: cover;
+}
+
+.header__main-text {
+    color: white;
+    padding-top: 20vh;
+}
+
+.header__sub-text {
+    color: white;
+}

@@ -1,0 +1,15 @@
+.section-services {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 15px;
+}
+
+.section-services__listItem {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1.3rem;
+    list-style-type: circle;
+    list-style-position: inside;
+
+
+}

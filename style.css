@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2rem;
+}
+
+.redBackground {
+    background-color: rgb(223, 76, 76);
+    color: white;
+}
