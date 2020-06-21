@@ -19,6 +19,6 @@ buttonQuote.addEventListener("click", () => {
     buttonQuote.innerText = "Opowiedz mi fraszkę";
   } else {
     quote.style.display = "block";
-    buttonQuote.innerText = "Schowaj fraszkę";
+    buttonQuote.innerText = "Już nie chcę fraszki";
   }
 });
